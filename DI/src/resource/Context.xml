@@ -14,8 +14,8 @@ xsi:schemaLocation="
        http://www.springframework.org/schema/aop
        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
        
-    <bean id="personBean" class="com.carina.spring.vedioTest.DI.service.PersonBean" init-method="init" destroy-method="destroy" scope="prototype"></bean>
-	<bean id="personBean2" class="com.carina.spring.vedioTest.DI.service.PersonBean2"></bean>
+    <bean id="personBean" class="com.carina.spring.chapter2.DI.model.PersonBean" init-method="init" destroy-method="destroy" scope="prototype"></bean>
+	<bean id="personBean2" class="com.carina.spring.chapter2.DI.model.PersonBean2"></bean>
 	
 	
 	<!-- don't forget the DataSource -->
