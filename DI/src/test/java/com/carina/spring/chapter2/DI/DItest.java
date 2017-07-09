@@ -41,7 +41,7 @@ public class DItest extends TestCase {
 	@SuppressWarnings("resource")
 	public void testJavaPublicDI(){
 		System.out.println("java");
-		ApplicationContext context = new AnnotationConfigApplicationContext("com.carina.spring.vedioTest.DI.config");
+		ApplicationContext context = new AnnotationConfigApplicationContext("com.carina.spring.chapter2.DI.config");
 		System.out.println("---------以java方式 显式的注入Bean-----------");
 		PersonBean pb = context.getBean(PersonBean.class);
 		pb.sayHello();

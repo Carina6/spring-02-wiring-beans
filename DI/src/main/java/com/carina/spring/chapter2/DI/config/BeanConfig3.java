@@ -4,7 +4,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages={"com.carina.spring.vedioTest.DI.service"})
+@ComponentScan(basePackages={"com.carina.spring.chapter2.DI.model"})
 public class BeanConfig3 {
 
 }
